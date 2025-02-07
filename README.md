@@ -62,13 +62,17 @@ npm start
 
 ```
 ├── webapp
-│   ├── controller  # Controllers for views
-│   ├── view        # XML views for the UI
-│   ├── model       # Data models
-│   ├── Component.js  # Application bootstrap
-│   ├── index.html  # Entry point of the app
-├── package.json    # Project dependencies and scripts
-└── ui5.yaml        # UI5 configuration
+|   ├── Assets                   # Images needed for application 
+│   ├── controller               # Controllers for views
+|   ├── css                      # Styles
+|   ├── enum                     # Constants/Enums for the application
+│   ├── view                     # XML views for the UI
+│       └── fragments            # XML fragments for the UI
+│   ├── model                    # Data models
+│   ├── Component.js             # Application bootstrap
+│   ├── index.html               # Entry point of the app
+├── package.json                 # Project dependencies and scripts
+└── ui5.yaml                     # UI5 configuration
 ```
 
 ## Deployment
