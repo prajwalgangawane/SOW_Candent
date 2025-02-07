@@ -39,11 +39,11 @@ Ensure that you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/prajwalgangawane/SOW_Candent.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd sow_tracker
+   cd SOW_Candent
    ```
 3. Install dependencies:
    ```sh
